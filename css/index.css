@@ -238,35 +238,124 @@
 }
 .choose{
     width: 236px;
-    height: 173px;   
+    height: 173px;
+    float: left;
+
 }
 .choose>ul{
     padding: 5px;
-    margin-top: 7px;
+    margin:0;
     background:#5F5750;
+    width: 227px;
+    height: 162px;
 }
 .choose>ul>li{
     float: left;  
     box-sizing: border-box; 
     padding-left:3px;
+    position:relative;
+
+}
+.m-t{
+    margin-top: 10px;
+}
+.choose>ul>li>img{
+    position:absolute;
+    top:0px;
+    left:24px;
 }
 .choose>ul>li>a{
+    position:relative;
     color:#fff; 
     font-size: 12px;
     display: inline-block;
     width:70px;
     height:64px;
     text-align: center;
-    background: url("../image/phone.png")no-repeat 24px 26px;  
+    /*background: url("../image/phone.png")no-repeat 24px 26px;  */
 }
-img_nav>ul>li{
+.img_nav{
     float: left;
+}
+.img_nav>div{
+    float:left;
+    padding-left:22px;
 }
 .louceng{
     width: 1250px;
     margin:0 auto;
     position: relative;
 }
-.tu1{
-  
+.louceng>.tu1{
+    margin-top:20px;
+
+}
+.lou1{
+    position: relative;
+}
+.lou1>.phone-title{
+    font-weight:normal;
+    font-size: 22px;
+    color:#333333;
+}
+.img-phone,.phone-xiang{
+    float: left;
+}
+.phone-cha{
+    position: absolute;
+    top:0px;
+    right:0px;
+    color:#424242;
+    font-size: 16px;
+}
+.phone-xiang{
+    width: 1016px;
+}
+.phone-xiang>ul>{
+    clear: both;
+
+}
+.phone-xiang>ul>li{
+    float: left;
+    width: 234px;
+    height:300px;
+    margin-right: 10px;
+    position: relative;
+}
+.phone-xiang>ul>li>div{
+    padding-left: 38px;
+}
+.title-a{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #333;
+    display:block;
+}
+.desc-p{
+    height: 18px;
+    font-size: 12px;
+    text-align: center;
+    color: #b0b0b0;
+}
+.price-p{
+    text-align: center;
+    color: #ff6700;
+}
+.flag{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 64px;
+    height: 20px;
+    margin-left: -32px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #83c44e;
+    z-index: 5;
+}
+.flag>a{
+    text-align: center;
 }
