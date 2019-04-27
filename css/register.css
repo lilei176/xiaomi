@@ -1,0 +1,78 @@
+.wrapper{
+    width: 100%;
+    background: #F9F9F9;
+}
+.wrap{
+    margin: 80px auto;
+}
+.wrap-logo{
+    text-align: center;
+    vertical-align: center;
+}
+.wrap-title{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.wrap-row{
+    width: 579px;
+    margin: 0 auto;
+    background: #fff;
+}
+.city-t{
+    width: 330px;
+    height: 40px;
+}
+.wrap-input{
+    margin-left: 125px;
+}
+.wrap-input>p{
+    margin-bottom: 0;
+}
+#phone{
+    height:40px;
+}
+.city-input{
+    width: 285px;
+    height: 34px;
+}
+.wrap-input>button{
+    background-color: #ff6700;
+    width: 74%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    /* margin: 20px 0 20px 39px; */
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    margin-top: 30px;
+}
+.wrap-xy{
+    margin: 48px 0 0px -38px;
+}
+.wrap-xy>.text-sy{
+    color: #9d9d9d;
+    font-size: 14px;
+}
+.wrap-xy>a{
+    color: #333;
+    font-weight: bold;
+    font-size: 14px
+}
+.footer-login{
+    width: 1130px;
+    margin: 0 auto;
+}
+.footer-login>.footer-text{
+    margin-top: 160px;
+}
+.footer-login>div>p{
+    text-align: center;
+}
+.footer-text>p,.footer-text>p>a{
+    color: #757575;
+    font-size: 12px;
+}

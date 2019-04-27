@@ -1,9 +1,108 @@
 .h_panel {
     width: 1130px;
     margin: 0 auto;
+
 }
-.h_logo {
+.h_logo{
     width: 200px;
     height: 98px;
-    background: url(../image/mistore_logo.png) no-repeat;
+}
+.banner-logo{
+    width: 100%;
+    height: 588px;
+    position: relative;
+    background:url("../image/xmad_15562437458804_IuNaE.jpg")no-repeat top center;
+}
+.login-form{
+    height: 588px;
+    width: 410px;
+    background: #ffffff;
+    position: absolute;
+    top: 35px;
+    left: 1082px;
+}
+.login-header{
+    padding: 27px 0 24px;
+    font-size: 24px;
+    color: #666;
+}
+.login-header>a{
+    display: inline-block;
+    margin-left: 75px;
+}
+.login-body>input{
+    height: 22px;
+    width: 74%;
+    line-height: 22px;
+    padding: 20px 16px 13px 14px;
+    display: block;
+    margin-left: 39px;
+    margin-top: 15px;
+}
+.login-body>button{
+    background-color: #ff6700;
+    width: 82%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    margin: 20px 0 20px 39px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+}
+.a-left{
+    color: #ff6700;
+    border: 0 none;
+    height: auto;
+    line-height: normal;
+    margin-left: 41px;
+    font-size: 14px;
+}
+.a-right{
+    text-align: right;
+    color: #999;
+    font-size: 14px;
+}
+.p-l{
+    padding-left: 87px;
+}
+.other-type{
+    padding-top: 0;
+    position: absolute;
+    top: 448px;
+    width: 100%;
+}
+.other-tit{
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+}
+.other-text{
+    font-size: 14px;
+    color: #bbb;
+    margin: 0 auto;
+    text-align: center;
+}
+.icon-logo{
+    margin-left:84px;
+
+}
+.icon-logo>a{
+    margin-left:20px ;
+}
+.footer-login{
+    width: 1130px;
+    margin: 0 auto;
+}
+.footer-login>.footer-text{
+    margin-top: 160px;
+}
+.footer-login>div>p{
+    text-align: center;
+}
+.footer-text>p,.footer-text>p>a{
+    color: #757575;
+    font-size: 12px;
 }
