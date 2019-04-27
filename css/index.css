@@ -288,15 +288,21 @@
 }
 .louceng>.tu1{
     margin-top:20px;
-
+}
+.back-lou{
+    background:#F5F5F5;
+    width: 100%;
 }
 .lou1{
     position: relative;
+    width: 1250px;
+    margin:0 auto;
 }
-.lou1>.phone-title{
+.phone-title{
     font-weight:normal;
     font-size: 22px;
     color:#333333;
+    padding-top: 25px;
 }
 .img-phone,.phone-xiang{
     float: left;
@@ -307,6 +313,7 @@
     right:0px;
     color:#424242;
     font-size: 16px;
+    padding-top: 25px;
 }
 .phone-xiang{
     width: 1016px;
@@ -315,15 +322,20 @@
     clear: both;
 
 }
+.ul-zt{
+    margin: 0;
+}
 .phone-xiang>ul>li{
     float: left;
     width: 234px;
     height:300px;
-    margin-right: 10px;
+    margin:0px 0px 12px 10px;
     position: relative;
+    background: #fff;
+    box-sizing: border-box;
 }
 .phone-xiang>ul>li>div{
-    padding-left: 38px;
+    padding:20px 0px 0px 38px;
 }
 .title-a{
     font-size: 14px;
@@ -357,5 +369,220 @@
     z-index: 5;
 }
 .flag>a{
+    text-align: center;
+}
+.img-top{
+    margin:20px 0;
+}
+.jiadian{
+    position: relative;
+}
+.right-gg{
+    color:#424242;
+    font-size: 16px;
+}
+.img-lou{
+    padding:0px;
+    float: left;
+}
+.float-left{
+    float: left;
+    margin-top: 16px;
+    padding-left: 6px;
+}
+.float-left>ul{
+    margin: 0;
+
+}
+.float-left>ul>li{
+    float: left;
+    position: relative;
+    background: #ffffff;
+    padding:0px 28px 58px 32px;
+    margin: 0px 0px 0px 16px;
+}
+.div-img>a>img{
+    padding: 8px;
+}
+#col-top{
+    margin-top: 16px;
+}
+.img-tou-m{
+    margin-bottom: 12px;
+}
+.width{
+    background: #ffffff;
+    width: 226px;
+    height: 145px
+}
+.float-left>ul>.clear-padding{
+    padding:0;
+    background: 0;
+}
+.xiao{
+    padding:19px 20px 0px 18px;
+}
+.more-small{
+    font-size: 12px;
+    color: #757575;
+}
+.xiao>.img1{
+    margin-top: -12px;
+}
+.xiao>.img2{
+    margin:19px 0px 0px 17px;
+}
+footer{
+    position: relative;
+    width: 1250px;
+    margin:0 auto;
+}
+.footer-service>ul{
+    border-bottom:1px solid #E0E0E0 ;
+}
+.site-footer{
+    width: 18.8%;
+    height: 25px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    position: relative;
+    padding-left: 15px;
+    padding-bottom: 23px;
+}
+.site-footer a{
+    color: #616161;
+    font-size: 16px;
+}
+.site-footer>span{
+    margin:0 0 0 62px;
+}
+.site-footer>img{
+    position: absolute;
+    top:0px;
+}
+.p-0{
+    padding:0;
+}
+.posi-left1{
+    left: 23px;
+
+}
+.posi-left2{
+    left: 9px;
+
+}
+.posi-left3{
+    left: 15px;
+
+}
+.posi-left5{
+    left: 42px;
+
+}
+#footer-xq>ul{
+    padding-right: 84px;
+}
+#footer-xq>ul>li>h4{
+    font-size: 14px;
+    line-height: 1.25;
+    color: #424242;
+    font-weight: normal;
+}
+.contact{
+    border-left: 1px solid #E0E0E0 ;
+    margin: 38px 0px 0 0;
+    padding-left: 118px;
+}
+#footer-xq>ul>li>a{
+    color: #757575;
+    font-size: 12px;
+    margin-bottom: 15px;
+    display: block
+}
+.contact>p:first-child{
+    margin: 0 0 5px;
+    font-size: 22px;
+    line-height: 1;
+    color: #ff6700;
+    text-align: center;
+}
+.contact>p:nth-child(2){
+    font-size: 12px;
+}
+.contact>a{
+    display: block;
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    border:1px solid #ff6700;
+    color: #ff6700;
+    text-align: center;
+}
+.site{
+    background:#F5F5F5;
+    width: 100%;
+}
+.site-body{
+    width:1250px;
+    margin:0 auto;
+    position: relative;
+}
+.site-logo{
+    position: absolute;
+    top:0;
+    left:0px;
+}
+.lianjie{
+    margin-left: 74px;
+}
+.lianjie>p{
+   margin: 0;
+}
+.lianjie>p>a{
+    color: #757575;
+    font-size: 12px;
+}
+.site-img{
+    margin-left:72px;
+}
+.site-img>p{
+    margin:0;
+}
+.slogan-ir{
+    margin: 30px auto 0;
+    width: 267px;
+    height: 19px;
+    background: url(../image/slogan2016.png) no-repeat center 0;
+    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+/* 右侧固定栏*/
+.aside-right{
+    position: fixed;
+    top: 247px;
+    right:0px;
+}
+.aside-right>ul>li+li,.aside-right>ul>li:first-child{
+    border-left: 1px  solid  #757575;
+    border-bottom: 1px  solid  #757575;
+    width: 82px;
+    height: 90px;
+}
+.aside-right>ul>li:first-child{
+    border-top:1px solid  #757575;
+}
+.aside-right>ul>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.aside-right>ul>li>a>img{
+    padding: 15px 0px 0px 25px;
+}
+.aside-right>ul>li>a>p{
+    margin: 0px 0 14px 0;
+    color: #757575;
+    font-size: 14px;
     text-align: center;
 }

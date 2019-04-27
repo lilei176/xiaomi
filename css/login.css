@@ -1,0 +1,9 @@
+.h_panel {
+    width: 1130px;
+    margin: 0 auto;
+}
+.h_logo {
+    width: 200px;
+    height: 98px;
+    background: url(../image/mistore_logo.png) no-repeat;
+}
